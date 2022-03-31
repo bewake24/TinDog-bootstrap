@@ -1,0 +1,37 @@
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.rotate-image {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+body{
+  font-family: Montserrat;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
