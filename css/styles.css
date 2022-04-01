@@ -6,6 +6,16 @@
   margin: 5% 3% 5% 0;
 }
 
+.fa-circle-check, .fa-bullseye, .fa-heart{
+  color: #ef8172;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover{
+  color: #ff4c68;
+}
+
 .navbar{
   padding-bottom: 4.5rem;
 }
@@ -16,7 +26,7 @@
 
 .nav-link{
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat";
 }
 
 .navbar-brand{
@@ -25,9 +35,38 @@
   font-weight: bold;
 }
 
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
 .rotate-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+.testimonials-image{
+  border-radius: 100%;
+  margin: 1.25rem;
+  width: 10%;
+}
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
 }
 
 #title {
@@ -44,4 +83,21 @@ h1 {
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+  padding: 0 3rem;
 }
