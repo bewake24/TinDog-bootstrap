@@ -1,4 +1,3 @@
-
 .carousel-item{
   padding: 7% 20%;
 }
@@ -26,6 +25,10 @@
 .features-box{
   text-align: center;
   padding: 4.5%;
+}
+
+.icons{
+  padding: 1rem 0.5rem;
 }
 
 .navbar{
@@ -69,13 +72,23 @@
   width: 10%;
 }
 
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+}
+
 #features{
   background-color: white;
   position: relative;
   z-index: 1;
   padding: 7% 15%;
 }
-
+#footer{
+  padding: 2rem; 
+  text-align: center;
+}
 #press{
   background-color: #ef8172;
   padding-bottom: 3%;
