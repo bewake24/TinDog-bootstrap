@@ -1,6 +1,13 @@
-.container-fluid {
-  padding: 3% 10%;
+
+.carousel-item{
+  padding: 7% 20%;
 }
+
+.container-fluid {
+  padding: 3% 15% ;
+}
+
+/* z-index is used to visualise elements in 3D but it only works when in styling 'position' is used. If position of one element is given but not z-index and other element have no styling in position then the element having position styling will have higher z-index. */
 
 .download-button{
   margin: 5% 3% 5% 0;
@@ -14,6 +21,11 @@
 
 .fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover{
   color: #ff4c68;
+}
+
+.features-box{
+  text-align: center;
+  padding: 4.5%;
 }
 
 .navbar{
@@ -40,9 +52,15 @@
   width: 15%;
 }
 
-.rotate-image {
-  width: 60%;
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.title-image {
+  width: 20%; /*width: 60% */
   transform: rotate(25deg);
+  position: absolute;
 }
 
 .testimonials-image{
@@ -52,8 +70,10 @@
 }
 
 #features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
   padding: 7% 15%;
-  text-align: center;
 }
 
 #press{
@@ -62,8 +82,11 @@
   text-align: center;
 }
 
+#pricing{
+  padding: 100px;
+}
+
 #testimonials{
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -100,4 +123,16 @@ h3{
 p{
   color: #8f8f8f;
   padding: 0 3rem;
+}
+
+@media (max-width: 1100px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
 }
