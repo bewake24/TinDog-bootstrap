@@ -7,7 +7,6 @@
 }
 
 /* z-index is used to visualise elements in 3D but it only works when in styling 'position' is used. If position of one element is given but not z-index and other element have no styling in position then the element having position styling will have higher z-index. */
-
 .download-button{
   margin: 5% 3% 5% 0;
 }
@@ -86,7 +85,7 @@
   padding: 7% 15%;
 }
 #footer{
-  padding: 2rem; 
+  padding: 2rem;
   text-align: center;
 }
 #press{
